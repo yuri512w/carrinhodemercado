@@ -1,7 +1,6 @@
 
-### Ionic 5 Angular Shopping Cart with Stripe payment 
 
-Clone and run npm install, If you wish to update to the latest Ionic **delete** the `node_modules` and run below,
+
 
 ```
 ng update @angular/core @angular/cli
@@ -27,26 +26,6 @@ You need to install manually as below
 npm i @ionic-native/core
 ```
 
-## Install Stripe for Capacitor 
 
-Make sure your Ionic project is integrated with Capacitor and not Cordova
-
-```
-npm install cordova-plugin-stripe
-npm install @ionic-native/stripe
-ionic cap sync
-```
-
-## Stripe (Test) Key
-
-**/src/payments/payments.page.ts**
-
-```
-  this.stripe.setPublishableKey('pk_test_xxxxxxxxxxx');
-```
-
-## Preview 
-
-![Ionic 5 Angular Shopping Cart with Stripe payment](/screenshot/screenshot.png)
 
 
